@@ -30,8 +30,8 @@ public extension WWBarcodeSlicer {
         counts.forEach { count in
             
             let lowerBound = index
-            let upperBound = index + index+count
-            let code = barcode[index..<index+count]
+            let upperBound = index + count
+            let code = barcode[lowerBound..<upperBound]
             
             index += count
             codes.append(code)
@@ -58,7 +58,7 @@ public extension WWBarcodeSlicer {
             
             let lowerBound = index
             let upperBound = index + info.count
-            let code = barcode[index..<upperBound]
+            let code = barcode[lowerBound..<upperBound]
             
             index += info.count
             codes[info.key] = code

@@ -13,9 +13,7 @@ import WWBarcodeSlicer
 final class ViewController: UIViewController {
 
     let barcode = "QQ000815241000801396600000014000000141234567828433892qk90D8ggCWuEvOngCZaEdaw="
-    
-    typealias CodeInfo = (key: String, count: Int)
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
