@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWBarcodeSlicer",
       "state" : {
-        "revision" : "6c2876986c941a8e60a21aa6050719b75f6febd8",
-        "version" : "1.0.1"
+        "revision" : "4c5701da8e3bb45a15583c55534ee8c38e5d0968",
+        "version" : "1.0.2"
       }
     },
     {
