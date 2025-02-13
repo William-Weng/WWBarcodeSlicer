@@ -55,7 +55,7 @@ private extension ViewController {
         let infos: [WWBarcodeSlicer.BarcodeInfo] = [
             (key: "發票號碼", count: 10),
             (key: "發票日期", count: 7),
-            (key: "四位", count: 4),
+            (key: "隨機碼", count: 4),
             (key: "銷售額", count: 8),
             (key: "總計", count: 8),
             (key: "買受人統編", count: 8),
